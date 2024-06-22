@@ -13,5 +13,6 @@ soup = bs(r.text, "lxml")
 
 #data = soup.find_all(string = "Galaxy Tab")
 data = soup.find_all(string = re.compile("Galaxy")) #we will get every name of device with galaxy on using regular expression module "re"
+print(data)
 print(len(data))
 
