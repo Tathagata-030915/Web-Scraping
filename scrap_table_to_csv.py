@@ -35,9 +35,3 @@ for i in rows[1:] :     #skipping the part which is on index 0 as we have alread
 
 print(df)
 df.to_csv("stock_market_data.csv")
-
-
-
-
-
-
